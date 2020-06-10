@@ -46,9 +46,6 @@ Completed
 10/06/2020
 </details>
 <details markdown="block">
-
----
-
 <summary>Bulletin simple</summary>
 
 # Bulletin simple
