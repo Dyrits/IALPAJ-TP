@@ -8,7 +8,9 @@
 # More about this project
 
 ### Related course
-INITIATION A LA PROGRAMMATION AVEC JAVA | TRAVAUX PRATIQUE : Module 4 : Les fondamentaux du langage Java  
+ENI | INITIATION A LA PROGRAMMATION AVEC JAVA  
+TRAVAUX PRATIQUE : Module 4 : Les fondamentaux du langage Java   
+[Calcul du temps de cuisson](https://github.com/Dyrits/IALPAJ-TP/blob/master/Enonc%C3%A9s/Module%2004%20-%20Enonc%C3%A9%20TP%2001%20-%20Cuisson.pdf)
 
 ### Description of the project by ENI
 Afficher le temps de cuisson d’une viande en fonction du type de la viande, du mode de
@@ -52,7 +54,9 @@ Completed
 # More about this project
 
 ### Related course
-INITIATION A LA PROGRAMMATION AVEC JAVA | TRAVAUX PRATIQUE : Module 4 : Les fondamentaux du langage Java  
+ENI | INITIATION A LA PROGRAMMATION AVEC JAVA  
+TRAVAUX PRATIQUE : Module 4 : Les fondamentaux du langage Java  
+[Bulletin simple](https://github.com/Dyrits/IALPAJ-TP/blob/master/Enonc%C3%A9s/Module%2004%20-%20Enonc%C3%A9%20TP%2002%20-%20Bulletin%20simple.pdf)
 
 ### Description of the project by ENI
 Rédiger le programme qui permet de calculer et d’afficher le bulletin de salaire simplifié
