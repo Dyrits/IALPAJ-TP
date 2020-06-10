@@ -1,7 +1,7 @@
 # Module 4 : Les fondamentaux du langage Java
 
 <details markdown="block">
-<summary> - Calcul du temps de cuisson </summary>
+<summary>Calcul du temps de cuisson</summary>
 
 # Calcul du temps de cuisson
 
@@ -42,5 +42,4 @@ Completed
 
 #### Last update (README.md)
 10/06/2020
-
 </details>
