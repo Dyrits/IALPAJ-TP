@@ -2,7 +2,7 @@ package eni.initiationjava.module4;
 import java.util.Scanner;
 
 /**
- * Ce programme permet de calculer le temps de cuisson, en secondes, d'une viande selon le type de cuisson choisi.
+ * Permet le calcul du temps de cuisson, en secondes, d'une viande selon le type de cuisson choisi.
  * @author Dyrits
  */
 
