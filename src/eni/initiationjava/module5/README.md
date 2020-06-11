@@ -81,3 +81,40 @@ Completed
 #### Last update (README.md)
 11/06/2020
 </details>
+<details markdown="block">
+<summary>Max et Compare</summary>
+
+# Max et Compare
+
+# More about this project
+
+### Related course
+ENI | INITIATION A LA PROGRAMMATION AVEC JAVA  
+TRAVAUX PRATIQUE : Module 5 : Les méthodes et les paramètres  
+[Max et Compare](https://github.com/Dyrits/IALPAJ-TP/blob/master/Enonc%C3%A9s/Module%2005%20-%20Enonc%C3%A9%20TP%2003%20-%20Max%20et%20Compare.pdf)
+
+### Description of the project by ENI
+Écrire une fonction prenant deux valeurs réelles en paramètre et qui retourne la plus
+grande des deux.  
+Écrire une autre fonction prenant également deux valeurs réelles en paramètre mais qui
+retourne :
+- 0 si les deux valeurs sont égales
+- 1 si la première valeur est la plus grande
+- -1 sinon  
+Ecrire une fonction principale permettant de tester ces deux fonctions 
+
+### Technologies | Libraries | Frameworks | Tools  
+- Java
+
+### Details | Comments
+- This project has been freely made from scratch following global instructions.
+
+### Status
+Completed
+
+#### Last update
+11/06/2020
+
+#### Last update (README.md)
+11/06/2020
+</details>
