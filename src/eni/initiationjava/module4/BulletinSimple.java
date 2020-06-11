@@ -3,6 +3,11 @@ package eni.initiationjava.module4;
 
 import java.util.Scanner;
 
+/**
+ * Permet d'établir un bulletin de paie simplifié.
+ * @author Dyrits
+ */
+
 public class BulletinSimple {
     public static void main(String[] args) {
         Scanner askInput = new Scanner(System.in);

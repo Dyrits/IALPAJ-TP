@@ -2,6 +2,11 @@ package eni.initiationjava.module4;
 
 import java.util.Scanner;
 
+/**
+ * Permet d'enregistrer un ensemble de chèques afin d'en obtenir différentes statistiques.
+ * @author Dyrits
+ */
+
 public class StatistiquesCheques {
     public static void main(String[] args) {
         Scanner askInput = new Scanner(System.in);
