@@ -100,3 +100,48 @@ Completed
 #### Last update (README.md)
 10/06/2020
 </details>
+<details markdown="block">
+<summary>Statistiques chèques</summary>
+
+# Statistiques chèques
+
+# More about this project
+
+### Related course
+ENI | INITIATION A LA PROGRAMMATION AVEC JAVA  
+TRAVAUX PRATIQUE : Module 4 : Les fondamentaux du langage Java  
+[Statistiques chèques](https://github.com/Dyrits/IALPAJ-TP/blob/master/Enonc%C3%A9s/Module%2004%20-%20Enonc%C3%A9%20TP%2003%20-%20Statistiques%20ch%C3%A8ques.pdf)
+
+### Description of the project by ENI
+Développer un programme qui demande à l’utilisateur de saisir une série de chèques.  
+Pour chaque chèque, demander le numéro puis le montant.  
+Si l’utilisateur introduit la valeur 0 à la demande du numéro, cela signifie qu’il n’y a plus de
+chèques.  
+Le programme doit afficher :  
+- le nombre de chèques introduits
+- le montant total des chèques
+- la moyenne des montants
+- le nombre de chèques dont le montant est inférieur à 200€
+- le montant total de ces chèques
+- le nombre de chèques dont le montant est supérieur ou égal à 200€
+- le montant total de ces chèques
+- le numéro du chèque dont le montant est le plus petit
+- le montant de ce chèque
+- le numéro du chèque dont le montant est le plus grand
+- le montant de ce chèque
+
+### Technologies | Libraries | Frameworks | Tools  
+- Java
+
+### Details | Comments
+- This project has been freely made from scratch following global instructions.
+
+### Status
+Completed
+
+#### Last update
+11/06/2020
+
+#### Last update (README.md)
+11/06/2020
+</details>
