@@ -20,7 +20,7 @@ public class NombresPremiers {
         if (number == 2) { return true; }
         else if (number < 2) { return false; }
         // La complexité de la boucle est réduite.
-        // Uniquement les les valeurs jusqu'à la racine carrée du nombre (+1) sont testés.
+        // Uniquement les valeurs jusqu'à la racine carrée du nombre (+1) sont testées.
         for (int testNumber = 2; testNumber * testNumber < number + 1; testNumber++) {
             if (number % testNumber == 0) { return false; }
         }
