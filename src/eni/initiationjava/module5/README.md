@@ -10,7 +10,7 @@
 ### Related course
 ENI | INITIATION A LA PROGRAMMATION AVEC JAVA  
 TRAVAUX PRATIQUE : Module 5 : Les méthodes et les paramètres  
-[Nombres premiers](https://github.com/Dyrits/IALPAJ-TP/blob/master/Enonc%C3%A9s/Module%2004%20-%20Enonc%C3%A9%20TP%2001%20-%20Cuisson.pdf)
+[Nombres premiers](https://github.com/Dyrits/IALPAJ-TP/blob/master/Enonc%C3%A9s/Module%2005%20-%20Enonc%C3%A9%20TP%2001%20-%20Nombres%20premiers.pdf)
 
 ### Description of the project by ENI
 **Étape 1**  
