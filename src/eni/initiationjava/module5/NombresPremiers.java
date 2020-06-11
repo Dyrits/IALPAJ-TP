@@ -19,14 +19,14 @@ public class NombresPremiers {
     public static boolean isPrime(int number) {
         if (number == 2) { return true; }
         else if (number < 2) { return false; }
-        for (int testNumber = 2; testNumber * testNumber < number; testNumber++) {
+        for (int testNumber = 2; testNumber * testNumber < number + 1; testNumber++) {
             if (number % testNumber == 0) { return false; }
         }
         return true;
     }
 
     public static void displayPrimesUpTo(int end) {
-        for(int start = 0; start < end + 1; start ++) {
+        for(int start = 1; start < end + 1; start += 2) {
             if(isPrime(start)) { System.out.println(start); }
         }
     }
