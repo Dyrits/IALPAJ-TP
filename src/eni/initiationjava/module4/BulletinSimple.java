@@ -37,26 +37,26 @@ public class BulletinSimple {
         System.out.printf("Le montant de votre salaire net s'élève à un total de %.2f euros.%n", salaireNet);
     }
 
-    private static double calculerSalaireBrut(double heures, double tauxHoraire) {
+    public static double calculerSalaireBrut(double heures, double tauxHoraire) {
         // Re-calcul des heures en tenant compte de la majoration:
         heures += heures > 180 ? (heures - 180) * 0.6 : 0;
         heures += heures > 169 ? (Math.min(heures, 180) - 169) * 0.5 : 0;
         return heures * tauxHoraire;
     }
 
-    private static double calculerCotisations(double salaireBrut) {
+    public static double calculerCotisations(double salaireBrut) {
         // Le total des cotisations s'élèvent à 29.81%.
         return salaireBrut * 29.81 / 100;
     }
 
-    private static int calculerPrime(int nombreEnfants) {
+    public static int calculerPrime(int nombreEnfants) {
         if (nombreEnfants > 0) {
             return nombreEnfants > 2 ? 70 + 20 * (nombreEnfants - 2) : nombreEnfants > 1 ? 50 : 20;
         }
         else { return 0; }
     }
 
-    private static double calculerSalaireNet(double salaireBrut, double cotisations, int prime) {
+    public static double calculerSalaireNet(double salaireBrut, double cotisations, int prime) {
         return salaireBrut + prime - cotisations;
     }
 }
