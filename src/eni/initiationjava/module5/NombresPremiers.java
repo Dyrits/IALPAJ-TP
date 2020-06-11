@@ -19,6 +19,8 @@ public class NombresPremiers {
     public static boolean isPrime(int number) {
         if (number == 2) { return true; }
         else if (number < 2) { return false; }
+        // La complexité de la boucle est réduite.
+        // Uniquement les les valeurs jusqu'à la racine carrée du nombre (+1) sont testés.
         for (int testNumber = 2; testNumber * testNumber < number + 1; testNumber++) {
             if (number % testNumber == 0) { return false; }
         }
@@ -26,7 +28,9 @@ public class NombresPremiers {
     }
 
     public static void displayPrimesUpTo(int end) {
-        for(int start = 1; start < end + 1; start += 2) {
+        if (end > 1) { System.out.println(2); }
+        // La boucle n'incluant pas 2 (qui est le seul nombre premier pair), celui-ci a été traité au préalable.
+        for(int start = 3; start < end + 1; start += 2) {
             if(isPrime(start)) { System.out.println(start); }
         }
     }
