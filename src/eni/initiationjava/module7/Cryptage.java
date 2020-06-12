@@ -49,7 +49,7 @@ public class Cryptage {
              Les valeurs en ASCII sont : C = 67, F = 70, A = 65
              (67 + 70) % 26 + 65 = 72 ce qui correspond à H. */
             char encodedLetter = (char) ((letter + keyLetter) % 26 + 'A');
-            decodedString.append(encodedLetter); // Plus ou moins l'équivalent d'une concaténation (ou += dans ce cas là).
+            decodedString.append(encodedLetter); // Plus ou moins l'équivalent d'une concaténation.
         }
         return decodedString.toString();
     }
