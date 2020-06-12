@@ -15,8 +15,8 @@ public class Cryptage {
         String toEncodeDecode = askInput.nextLine().toUpperCase(); // On s'assure que les lettres soient en majuscules.
         String encodeKey;
         do {
-            System.out.print("Entrez une clé de cryptage valide : ");
-            encodeKey = askInput.nextLine();
+            System.out.print("Entrez une clé de cryptage valide de 8 lettres : ");
+            encodeKey = askInput.nextLine().toUpperCase();
         } while (!keyValidity(encodeKey));
         System.out.println("La phrase encodée est : ");
         System.out.println(encodeString(toEncodeDecode, encodeKey));
@@ -64,10 +64,9 @@ public class Cryptage {
             int letter = toDecode.charAt(index);
             int keyLetter = encodeKey.charAt(index % encodeKey.length());
              /* Le reste de la division entière de la différence des valeurs de la lettre et de la clé de cryptage...
-             ...par 26 correspond à l'écart de la lettre décodée par rapport à A si positif, Z si négatif. */
-            char encodedLetter = (char) ((letter - keyLetter) % 26 < 0 ?
-                    (letter - keyLetter) % 26 + 'Z' + 1 :
-                    (letter - keyLetter) % 26 + 'A');
+             ...par 26 correspond à l'écart de la lettre décodée par rapport à A si positif, Z si négatif.
+              On utilise Math.max() et Math.min() afin de garantir un résultat positif. */
+            char encodedLetter = (char) ((Math.max(letter, keyLetter) - Math.min(letter, keyLetter)) % 26 + 'A');
             decodedString.append(encodedLetter);
         }
         return decodedString.toString();
