@@ -65,7 +65,7 @@ public class Cryptage {
             int keyLetter = encodeKey.charAt(index % encodeKey.length());
              /* Le reste de la division entière de la différence des valeurs de la lettre et de la clé de cryptage...
              ...par 26 correspond à l'écart de la lettre décodée par rapport à A si positif, Z si négatif.
-              On utilise Math.max() et Math.min() afin de garantir un résultat positif. */
+             On utilise Math.max() et Math.min() afin de garantir un résultat positif. */
             char encodedLetter = (char) ((Math.max(letter, keyLetter) - Math.min(letter, keyLetter)) % 26 + 'A');
             decodedString.append(encodedLetter);
         }
