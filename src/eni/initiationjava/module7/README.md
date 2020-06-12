@@ -9,8 +9,8 @@
 
 ### Related course
 ENI | INITIATION A LA PROGRAMMATION AVEC JAVA  
-TRAVAUX PRATIQUE : Module 7 : Les variables complexes 
-[Mélangeur de mots](https://github.com/Dyrits/IALPAJ-TP/blob/master/Enonc%C3%A9s/Module%2005%20-%20Enonc%C3%A9%20TP%2001%20-%20Nombres%20premiers.pdf)
+TRAVAUX PRATIQUE : Module 7 : Les variables complexes  
+[Mélangeur de mots](https://github.com/Dyrits/IALPAJ-TP/blob/master/Enonc%C3%A9s/Module%2007%20-%20Enonc%C3%A9%20TP%2001%20-%20M%C3%A9langeur%20de%20mots.pdf)
 
 ### Description of the project by ENI
 Ecrire un programme **fr.eni_ecole.jse.melangeur.Melangeurqui** mélange les lettres (sauf la première etla dernière) de chaque mot d'une phrase et qui affiche la phrase avec les mots mélangés.  
