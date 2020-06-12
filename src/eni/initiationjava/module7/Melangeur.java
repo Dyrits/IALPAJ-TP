@@ -15,6 +15,7 @@ public class Melangeur {
 
     public static void main(String[] args) {
         Scanner askInput = new Scanner(System.in);
+        System.out.print("Saisissez du texte : ");
         String sentence = askInput.nextLine();
         String shuffledSentence = shuffleString(sentence);
         System.out.println(shuffledSentence);
