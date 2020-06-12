@@ -43,7 +43,7 @@ public class Cryptage {
             Exemple avec index 25 et clé de taille 8 :
             25 % 8 = 1 soit le premier index (qui est la deuxième lettre). */
             int keyLetter = encodeKey.charAt(index % encodeKey.length());
-            /* Le reste de la division de la somme des valeurs de la lettre et de la clé de cryptage par 26...
+            /* Le reste de la division entière de la somme des valeurs de la lettre et de la clé de cryptage par 26...
              ...correspond à l'écart de la lettre encodée par rapport à A.
              Exemple avec la lettre C et la clé F :
              Les valeurs en ASCII sont : C = 67, F = 70, A = 65
@@ -63,8 +63,8 @@ public class Cryptage {
             }
             int letter = toDecode.charAt(index);
             int keyLetter = encodeKey.charAt(index % encodeKey.length());
-             /* Le reste de la division de la différence des valeurs de la lettre et de la clé de cryptage par 26...
-              ... correspond à l'écart de la lettre décodée par rapport à A si positif, Z si négatif. */
+             /* Le reste de la division entière de la différence des valeurs de la lettre et de la clé de cryptage...
+             ...par 26 correspond à l'écart de la lettre décodée par rapport à A si positif, Z si négatif. */
             char encodedLetter = (char) ((letter - keyLetter) % 26 < 0 ?
                     (letter - keyLetter) % 26 + 'Z' + 1 :
                     (letter - keyLetter) % 26 + 'A');
