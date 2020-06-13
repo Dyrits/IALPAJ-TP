@@ -17,9 +17,9 @@ public class RepresentationBinaire {
 
     public static String representationBinaire(int number) {
         StringBuilder representationBinaire = new StringBuilder();
-        for(int exponent = 1073741824; exponent > 0; exponent /= 2) {
-            representationBinaire.append(number / exponent == 0 ? 0 : 1);
-            number %= exponent;
+        for(int exponential = 1073741824; exponential  > 0; exponential  /= 2) {
+            representationBinaire.append(number / exponential  == 0 ? 0 : 1);
+            number %= exponential ;
         }
         return representationBinaire.toString();
     }
