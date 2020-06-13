@@ -164,12 +164,56 @@ Ecrire un programme **fr.eni_ecole.jse.palindrome.TesteurPalindrome** qui teste 
 **Remarque :** un palindrome est une phrase donnant le même résultat qu'elle soit lue de droite à gauche ou de gauche à droite (sans tenir compte de la casse, des espaces, de la ponctuation ou des accents).
 
 Exemples de palindromes :  
-« Laval »  
-« Esopereste ici et se repose »  
-« Engage le jeu que je le gagne »  
-«La mère Gide digère mal»  
+- « Laval »  
+- « Esope reste ici et se repose »  
+- « Engage le jeu que je le gagne »  
+- « La mère Gide digère mal»  
 
 **Indice:** s'intéresser à la méthode `split` de la classe `String` ou à la classe `StringTokenizer` et ses méthodes.
+
+### Technologies | Libraries | Frameworks | Tools  
+- Java
+
+### Details | Comments
+- This project has been freely made from scratch following global instructions.
+
+### Status
+Completed
+
+#### Last update
+13/06/2020
+
+#### Last update (README.md)
+13/06/2020
+</details>
+<details markdown="block">
+<summary>Gestion des villes</summary>
+
+# Gestion des villes
+
+# More about this project
+
+### Related course
+ENI | INITIATION A LA PROGRAMMATION AVEC JAVA  
+TRAVAUX PRATIQUE : Module 7 : Les variables complexes  
+[Gestion des villes](https://github.com/Dyrits/IALPAJ-TP/blob/master/Enonc%C3%A9s/Module%2007%20-%20Enonc%C3%A9%20TP%2006%20-%20Gestion%20des%20villes.pdf)
+
+### Description of the project by ENI
+- Créer un tableau contenant les villes citées ci-dessous :
+    - Lille
+    - Lens
+    - Amiens
+    - Rouen
+    - Caen
+    - Rennes
+    - Nantes
+    - Niort
+    - Bordeaux
+    - Bayonne
+
+- Créer une méthode affichant le contenu du tableau créé précédemment.
+- Créer une méthode affichant les villes commençant par la lettre A du tableau créé précédemment.
+- Créer une méthode qui modifie le contenu du tableau en ajoutant un numéro aléatoire à la fin du nom de chaque ville.  
 
 ### Technologies | Libraries | Frameworks | Tools  
 - Java
