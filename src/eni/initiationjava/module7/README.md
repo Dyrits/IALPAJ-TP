@@ -126,10 +126,50 @@ TRAVAUX PRATIQUE : Module 7 : Les variables complexes
 [Représentation binaire](https://github.com/Dyrits/IALPAJ-TP/blob/master/Enonc%C3%A9s/Module%2007%20-%20Enonc%C3%A9%20TP%2004%20-%20Repr%C3%A9sentation%20binaire.pdf)
 
 ### Description of the project by ENI
-Écrire une `classefr.eni_ecole.jse.AfficheurBinaire` qui affiche la représentation binaire d’unnombre entier compris entre 0 et 256 (sans utiliser `Integer.toBinaryString()` ni aucune autre classe que `Integer` et `System`)
+Écrire une **classefr.eni_ecole.jse.AfficheurBinaire** qui affiche la représentation binaire d’unnombre entier compris entre 0 et 256 (sans utiliser `Integer.toBinaryString()` ni aucune autre classe que `Integer` et `System`)
 
 Exemple:  
 77 donne 0100 1101
+
+### Technologies | Libraries | Frameworks | Tools  
+- Java
+
+### Details | Comments
+- This project has been freely made from scratch following global instructions.
+
+### Status
+Completed
+
+#### Last update
+13/06/2020
+
+#### Last update (README.md)
+13/06/2020
+</details>
+<details markdown="block">
+<summary>Palindromes</summary>
+
+# Palindromes
+
+# More about this project
+
+### Related course
+ENI | INITIATION A LA PROGRAMMATION AVEC JAVA  
+TRAVAUX PRATIQUE : Module 7 : Les variables complexes  
+[Palindromes](https://github.com/Dyrits/IALPAJ-TP/blob/master/Enonc%C3%A9s/Module%2007%20-%20Enonc%C3%A9%20TP%2004%20-%20Repr%C3%A9sentation%20binaire.pdf)
+
+### Description of the project by ENI
+Ecrire un programme **fr.eni_ecole.jse.palindrome.TesteurPalindrome** qui teste et affiche si unephrase est un palindrome ou non.
+
+**Remarque :** un palindrome est une phrase donnant le même résultat qu'elle soit lue de droite à gauche ou de gauche à droite (sans tenir compte de la casse, des espaces, de la ponctuation ou des accents).
+
+Exemples de palindromes :  
+« Laval »  
+« Esopereste ici et se repose »  
+« Engage le jeu que je le gagne »  
+«La mère Gide digère mal»  
+
+**Indice:** s'intéresser à la méthode `split` de la classe `String` ou à la classe `StringTokenizer` et ses méthodes.
 
 ### Technologies | Libraries | Frameworks | Tools  
 - Java
