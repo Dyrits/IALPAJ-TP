@@ -128,6 +128,9 @@ TRAVAUX PRATIQUE : Module 7 : Les variables complexes
 ### Description of the project by ENI
 Écrire une `classefr.eni_ecole.jse.AfficheurBinaire` qui affiche la représentation binaire d’unnombre entier compris entre 0 et 256 (sans utiliser `Integer.toBinaryString()` ni aucune autre classe que `Integer` et `System`)
 
+Exemple:  
+77 donne 0100 1101
+
 ### Technologies | Libraries | Frameworks | Tools  
 - Java
 
