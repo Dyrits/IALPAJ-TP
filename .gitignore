@@ -1,6 +1,8 @@
 # JetBrains & IDE
 .idea/
 out/
+.classpath
+.project
 
 # Compiled class file
 *.class
