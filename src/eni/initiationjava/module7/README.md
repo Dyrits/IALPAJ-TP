@@ -74,3 +74,42 @@ Completed
 #### Last update (README.md)
 12/06/2020
 </details>
+<details markdown="block">
+<summary>Suite logique</summary>
+
+# Suite logique
+
+# More about this project
+
+### Related course
+ENI | INITIATION A LA PROGRAMMATION AVEC JAVA  
+TRAVAUX PRATIQUE : Module 7 : Les variables complexes  
+[Suite logique](https://github.com/Dyrits/IALPAJ-TP/blob/master/Enonc%C3%A9s/Module%2007%20-%20Enonc%C3%A9%20TP%2003%20-%20Suite%20logique.pdf)
+
+### Description of the project by ENI
+1  
+11  
+21  
+1211  
+111221  
+312211  
+
+- Donner la suite de cette suite de chiffre.
+- Une fois la suite trouvée, mettre en place l'algorithme permettant de continuer cette suite à une profondeur de 40.
+- Optimiser le code afin que le temps d'exécution avec une profondeur de 40 soit inférieur à 1s.
+
+### Technologies | Libraries | Frameworks | Tools  
+- Java
+
+### Details | Comments
+- This project has been freely made from scratch following global instructions.
+
+### Status
+Completed
+
+#### Last update
+12/06/2020
+
+#### Last update (README.md)
+12/06/2020
+</details>
