@@ -53,7 +53,10 @@ public class StatistiquesCheques {
                 montantChequeMax = montantCheque;
                 numChequeMax = numCheque;
             }
+
         } while (numCheque != 0);
+
+        askInput.close();
 
         moyenne = montantTotal / nombreCheques;
         System.out.printf("Vous avez introduit %s chèques.%n", nombreCheques);

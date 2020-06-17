@@ -12,6 +12,7 @@ public class RepresentationBinaire {
         Scanner askInput = new Scanner(System.in);
         System.out.print("Saisissez un nombre entier: ");
         int number = askInput.nextInt();
+        askInput.close();
         System.out.println("Représentation binaire : " + representationBinaire(number));
     }
 

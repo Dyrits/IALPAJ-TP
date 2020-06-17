@@ -17,6 +17,7 @@ public class Melangeur {
         Scanner askInput = new Scanner(System.in);
         System.out.print("Saisissez du texte : ");
         String sentence = askInput.nextLine();
+        askInput.close();
         System.out.println();
         System.out.println("Mélangeons tout ça...");
         String shuffledSentence = shuffleString(sentence);
@@ -25,9 +26,11 @@ public class Melangeur {
 
     public static String shuffleString(String string) {
         String[] sentenceArray = string.split(" "); // Division de la phrase en un tableau de mots.
-        for (int index = 0 ; index < sentenceArray.length ; index++) {
+        for (int index = 0; index < sentenceArray.length; index++) {
             // Si le mot est plus court que 4 lettres, il ne changera pas. On passe à l'itération suivante:
-            if (sentenceArray[index].length() < 4) { continue; }
+            if (sentenceArray[index].length() < 4) {
+                continue;
+            }
             // Chaque mot est divisé en un tableau de lettres:
             char[] wordArray = sentenceArray[index].toCharArray();
             sliceAndShuffleWord(wordArray);
@@ -43,29 +46,37 @@ public class Melangeur {
         int indexStart = 1;
         int indexEnd = word.length - 1;
         while (!Character.isLetter(word[indexStart])) {
-            indexStart ++;
+            indexStart++;
             // On sort de la méthode si, sans les caractères spéciaux, le mot est trop court pour être mélangé.
-            if (indexEnd - indexStart < 2) { return; }
+            if (indexEnd - indexStart < 2) {
+                return;
+            }
         }
         while (!Character.isLetter(word[indexEnd])) {
-            indexEnd --;
+            indexEnd--;
             // On sort de la méthode si, sans les caractères spéciaux, le mot est trop court pour être mélangé.
-            if (indexEnd - indexStart < 2) { return; }
+            if (indexEnd - indexStart < 2) {
+                return;
+            }
         }
         // Un tableau est créé pour stocker uniquement les lettres qui seront mélangées:
-        char[] slicedArray =  Arrays.copyOfRange(word, indexStart, indexEnd);
+        char[] slicedArray = Arrays.copyOfRange(word, indexStart, indexEnd);
         shuffleWord(slicedArray);
         // Pour chaque lettre du tableau entre l'index de début et de fin est attribué celle du tableau de lettre mélangé:
-        for(int index = 0; index < word.length; index ++) {
-            if (index < indexStart) { continue; }
-            if (index == indexEnd) { break; }
+        for (int index = 0; index < word.length; index++) {
+            if (index < indexStart) {
+                continue;
+            }
+            if (index == indexEnd) {
+                break;
+            }
             word[index] = slicedArray[index - indexStart];
         }
     }
 
     public static void shuffleWord(char[] word) {
         // Pour chaque lettre du mot, un index d'une autre lettre est attribué au hasard.
-        for (int index = 0; index < word.length - 1; index ++) {
+        for (int index = 0; index < word.length - 1; index++) {
             int letterIndex = randomIndex.nextInt(word.length);
             swapLetter(word, index, letterIndex);
         }
@@ -76,5 +87,4 @@ public class Melangeur {
         word[firstIndex] = word[secondIndex];
         word[secondIndex] = tempLetter;
     }
-
 }

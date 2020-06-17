@@ -23,6 +23,8 @@ public class BulletinSimple {
         System.out.print("Entrez votre nombre d'enfants: ");
         int nombreEnfants = askInput.nextInt();
 
+        askInput.close();
+
         double salaireBrut = calculerSalaireBrut(heures, tauxHoraire);
         double cotisations = calculerCotisations(salaireBrut);
         int prime = calculerPrime(nombreEnfants);

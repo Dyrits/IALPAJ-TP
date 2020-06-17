@@ -13,6 +13,7 @@ public class Cryptage {
         Scanner askInput = new Scanner(System.in);
         System.out.print("Entrez une phrase à encoder ou décoder (en majuscule) : ");
         String toEncodeDecode = askInput.nextLine().toUpperCase(); // On s'assure que les lettres soient en majuscules.
+        askInput.close();
         String encodeKey;
         do {
             System.out.print("Entrez une clé de cryptage valide de 8 lettres : ");

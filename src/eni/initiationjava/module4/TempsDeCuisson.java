@@ -32,6 +32,8 @@ public class TempsDeCuisson {
 
         int poids = askInput.nextInt();
 
+        askInput.close();
+
         if (viande == 0) {
             tempsDeCuisson = poids * (int) CUISSON_BOEUF[cuisson];
         } else {

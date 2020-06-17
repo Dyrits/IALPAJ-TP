@@ -16,6 +16,7 @@ public class GestionVilles {
             "Bordeaux",
             "Bayonne"
     };
+
     public static void main(String[] args) {
         displayCities(); // Display the array.
         displayCitiesStartingWith("A"); // Display the element of the array starting with "A".

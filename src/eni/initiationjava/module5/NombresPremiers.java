@@ -13,6 +13,7 @@ public class NombresPremiers {
         Scanner askInput = new Scanner(System.in);
         System.out.println("Jusqu'à quelle valeur voulez-vous afficher les nombres premiers ?");
         int limit = askInput.nextInt();
+        askInput.close();
         displayPrimesUpTo(limit);
     }
 

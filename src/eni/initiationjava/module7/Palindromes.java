@@ -12,6 +12,7 @@ public class Palindromes {
         Scanner askInput = new Scanner(System.in);
         System.out.print("Veuillez saisir une phrase: ");
         String sentence = askInput.nextLine();
+        askInput.close();
         System.out.println(new StringBuilder(sentence)
                 .reverse()
                 .toString()
