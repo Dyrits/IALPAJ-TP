@@ -33,4 +33,5 @@ public class EchiquierSissa {
         System.out.println(Arrays.deepToString(board)); // Permet l'affichage directement sous forme de tableau.
         System.out.println(); // Saut de ligne.
     }
+
 }

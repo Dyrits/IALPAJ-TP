@@ -1,6 +1,7 @@
 package eni.initiationjava.module5;
 
 public class MaxCompare {
+
     public static void main(String[] args) {
         // Tests:
         System.out.println(max(125.75, 175.25)); // 175.25
